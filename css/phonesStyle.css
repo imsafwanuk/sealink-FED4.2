@@ -1,0 +1,33 @@
+/* stylesheet for phones and screen less than 450px */
+
+@media (max-width: 450px) {
+
+	/*start arrows mod*/
+
+	/*set size of arrows, both up and down*/
+	.arrow{
+		border-width: 20px;
+	}
+
+	.down-arrow{
+		bottom: 5%;
+		border-top: 20px solid rgba(0,0,0,0.7);
+	}
+
+	.up-arrow{
+		top: 4%;
+		border-bottom: 20px solid rgba(0,0,0,0.7);
+	}
+
+	/*ends arrows mod*/
+
+	/*change only slide1 styles*/
+	#slide1{
+		font-size: 14px;
+		background-position: center;
+  		background-repeat: no-repeat;
+  		max-width:100%;
+	}
+}
+
+

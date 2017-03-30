@@ -1,0 +1,155 @@
+html, body{
+	height: 100%;
+	width: 100%;
+	margin: 0;
+	padding: 0;
+}
+
+
+.nav{
+	font-family: cursive;
+}
+
+
+main{
+	margin-top: 20px;
+	height: 100%;
+	font-family: cursive;
+}
+
+header, h1{
+	text-transform: uppercase;
+	font-weight: 300;
+	text-align: center;
+	font-size: 30px;
+	margin-bottom: 15px;
+}
+
+/*general slide styles*/
+
+.slide{
+	background-attachment: fixed;
+	-webkit-background-size: cover;
+	background-size: cover;
+	-moz-background-size: cover;
+	background-repeat: no-repeat;
+	-o-background-size: cover;
+	overflow: auto;
+	width: 100%;
+	height: 100%;
+	position: relative;
+}
+
+
+/*style arrows starts*/
+
+.arrow{
+	display: block;
+	position: absolute;
+	left: 50%;
+	margin-left: -25px;
+	border-left: 35px solid transparent;
+    border-right: 35px solid transparent;
+	background-repeat: no-repeat;
+	padding-bottom: -10%;
+}
+
+/*style arrows ends*/
+
+/* slide1 styles starts*/
+
+#slide1{
+	background-image: url("../images/slide1.jpg");
+	padding-top: 90px;
+	margin-top: 50px;
+    margin-top: 10px;
+	font-weight: 500;
+	position: relative;
+	height: 100%;
+}
+
+
+
+.slide-1-logo{
+	text-align: center;
+}
+
+/* slide1 styles ends*/
+
+/* slide2 styles starts*/
+
+/*set bg color and z-index*/
+#slide2{
+	padding-top: 8%;
+	background: -webkit-linear-gradient(left, #25c481, #25b7c4);
+  	background: linear-gradient(to right, #25c481, #25b7c4);
+	background-size: cover;
+	z-index: 9;
+	height: 94%;
+}
+
+
+table{
+  width:100%;
+  table-layout: fixed;
+  border-collapse:collapse;
+  text-align: center;
+}
+
+#tbl-h1{
+	color: #fff;
+	padding: 20px;
+}
+
+/*center align all table content*/
+.tbl1, .tbl1 th{
+	text-align: center;
+}
+
+#tbl-header{
+  background-color: rgba(255,255,255,0.3);
+ }
+
+#tbl-header th{
+  padding: 20px 15px;
+  font-weight: 500;
+  font-size: 12px;
+  color: #fff;
+  text-transform: uppercase;
+}
+
+#tbl-content{
+  height:170px;
+  overflow-x:auto;
+  margin-top: 0px;
+  border: 1px solid rgba(255,255,255,0.6);
+}
+
+
+#tbl-content td{
+  padding: 16px;
+  vertical-align:middle;
+  font-weight: 300;
+  font-size: 12px;
+  color: #fff;
+}
+
+#tbl-content tr{
+	border-bottom: solid 1px rgba(255,255,255,0.6);
+}
+
+#tbl-content tr:last-child{
+	border-bottom: none;
+}
+
+/* slide2 styles ends*/
+
+/* slide3 styles starts*/
+
+#slide3{
+	background-image: url("../images/slide3.jpg");
+	height: 95%
+}
+
+/* slide3 styles ends*/
+

@@ -1,0 +1,25 @@
+/* stylesheet for tablets, pc and screen greater than 450px */
+
+/*start arrows mod*/
+
+/*set size of arrows, both up and down*/
+.arrow{
+	border-width: 35px;
+}
+
+.down-arrow{
+	bottom: 5%;
+	border-top: 35px solid rgba(0,0,0,0.7);
+}
+
+.up-arrow{
+	top: 4%;
+	border-bottom: 35px solid rgba(0,0,0,0.7);
+}
+
+/*ends arrows mod*/
+
+/*change only slide1 styles*/
+#slide1{
+	font-size: 17px;
+}

@@ -1,0 +1,139 @@
+<!-- html5 refactor sealink-->
+
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="utf-8">
+        <meta name="viewport" content="width=device-width, user-scalable=no,initial-scale=1.0, minimum-scale=1.0, maximum-scale=1.0">  
+        <title>SeaLink HTML5 Refactor</title>
+        <!-- stylesheets -->
+            <!-- bootstrap -->
+            <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css" integrity="sha384-BVYiiSIFeK1dGmJRAkycuHAHRg32OmUcww7on3RYdg4Va+PmSTsz/K68vbdEjh4u" crossorigin="anonymous">
+            <!-- my stylesheet -->
+            <link rel="stylesheet" type="text/css" href="css/mainStyle.css">
+                <!-- stylesheet for desktop, laptop and tablets -->
+                <link rel="stylesheet" type="text/css" href="css/computersStyle.css">
+                <!-- stylesheet phones -->
+                <link rel="stylesheet" type="text/css" href="css/phoneStyle.css">
+        <!-- scripts -->
+            <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.1.1/jquery.min.js" integrity="sha384-3ceskX3iaEnIogmQchP8opvBy3Mi7Ce34nWjpBIwVTHfGYWQS9jwHDVRnpKKHJg7" crossorigin="anonymous"></script>
+            <!-- bootstrap -->
+            <script type="text/javascript" src="http://jquery-ui.googlecode.com/svn/tags/1.8rc3/ui/jquery-ui.js"></script>
+            <!-- my script -->
+            <script type="text/javascript" src="scripts/mainScript.js"></script>
+    </head>
+    <body>
+        <!--navbar that stays fixed at the top-->
+        <nav class="navbar-wrapper navbar-fixed-top">
+            <div class="navbar navbar-inverse">
+                <div class="container-fluid">
+                    <!-- left part of navbar that goes away when shrinked -->
+                    <div class="collapse navbar-collapse">
+                        <ul class="nav navbar-nav">
+                            <li data-slide="1"><a class="navbar-brand" href="#">Paragraph</a></li>
+                            <li data-slide="2"><a class="navbar-brand" href="#">Table</a></li>
+                            <li data-slide="3"><a class="navbar-brand" href="#">Image</a></li>
+                        </ul>
+                    </div>
+                    <!-- right part of navbar shown when shrinked -->
+                    <div class="navbar-header">
+                      <button type="button" class="navbar-toggle" data-toggle="collapse" data-target=".navbar-collapse">
+                        <span class="sr-only">Toggle navigation</span>
+                        <span class="icon-bar"></span>  
+                        <span class="icon-bar"></span>  
+                        <span class="icon-bar"></span>
+                      </button>
+                    </div>
+                </div>
+            </div>
+        </nav>
+        <!-- slide 1 -->
+        <main role="main">
+            <div class="slide" id= "slide1" data-slide="1" data-stellar-background-ratio="0.5">
+                <div class="container">
+                    <div class="row">
+                        <div class="col-md-6 slide-1-logo col-md-offset-3">
+                            <header>
+                                <h1>Heading</h1>
+                            </header>
+                            <section>
+                                <p>HTML 4.0 is becoming the standard. As of the writing of this tutorial, Microsoft Explorer version 5.0 is out with full HTML 4.0 support. <a href='#' style='color: green'>Netscape Navigator 5.0</a> is not far behind, and soon the commands below will start to become mainstream.
+                                </p>
+
+                                <p>Here's a quick look at how HTML 4.01 affects tables. You are already familiar with some of the tags and attributes. For example, <a href='#'><font color='blue'>BORDERCOLOR has been</font></a> in use for a while as a proprietary Internet Explorer tag. It has just now been written into the HTML 4.01 code.
+                                </p>
+
+                                <p>I have offered as many examples as possible. Many will simply not work because you don't yet have the browser version that supports it. Don't worry, neither did I when <a href='#' id='blue'>I wrote this tutorial.</a> Hopefully you'll be able to visit this tutorial in the future to test what your new browser will and will not do. I am only going to hit the tags and attributes new through HTML 4.01 in this tutorial. If you'd like to get into the basics of table creation, start with my table tutorials.
+                                </p>
+                            </section>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="arrow down-arrow" data-arrow = "down-2"></div>
+
+            </div>
+            
+            <!-- slide 2 -->
+            <div class="slide" id= "slide2" data-slide="2" data-stellar-background-ratio="0.5">
+               
+                <div class="arrow up-arrow" data-arrow = "up-1"></div>
+               
+                <div class="container">
+                    <div class="row">
+                        <div class="col-md-6 slide-1-logo col-md-offset-3">
+                            <section>
+                                <!-for demo wrap-->
+                                <h1 id="tbl-h1" >Fixed Table header</h1>
+                                <div class="tbl1" id="tbl-header">
+                                    <table cellpadding="0" cellspacing="0" border="0">
+                                        <thead>
+                                            <tr>
+                                                <th>Heading 1</th>
+                                                <th>Heading 2</th>
+                                                <th>Heading 3</th>
+                                            </tr>
+                                        </thead>
+                                    </table>
+                                </div>
+                                <div class="tbl1" id="tbl-content">
+                                    <table cellpadding="0" cellspacing="0" border="0">
+                                        <tbody>
+                                            <tr>
+                                                <td>Cell Data</td>
+                                                <td>Cell Data</td>
+                                                <td>Cell Data</td>        
+                                            </tr>
+                                            <tr>
+                                                <td>Cell Data</td>
+                                                <td>Cell Data</td>
+                                                <td>Cell Data</td>        
+                                            </tr>
+                                             <tr>
+                                                <td>Cell Data</td>
+                                                <td>Cell Data</td>
+                                                <td>Cell Data</td>        
+                                            </tr>
+                                        </tbody>
+                                    </table>
+                                </div>
+                            </section>
+                        </div>
+                    </div>
+                </div>
+              
+                <div class="arrow down-arrow" data-arrow = "down-3"></div>
+
+            </div>
+
+            <!-- slide 3 -->
+            <div class="slide" id= "slide3" data-slide="3" data-stellar-background-ratio="0.5">
+                
+                <div class="arrow up-arrow" data-arrow = "up-2"></div>
+            
+            </div>
+        </main>
+        
+        <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js" integrity="sha384-Tc5IQib027qvyjSMfHjOMaLkfuWVxZxUPnCJA7l2mCWNIpG9mGCD8wGNIcPD7Txa" crossorigin="anonymous"></script>
+    </body>
+</html>
